@@ -1,0 +1,31 @@
+2024-11-11 14:46:34:4634 [32minfo[39m: [32mGET - /iklan - Winston[39m
+2024-11-11 14:47:36:4736 [32minfo[39m: [32mGET - /iklan - Winston[39m
+2024-11-11 14:47:36:4736 [32minfo[39m: [32mGET / - 97ms[39m
+2024-11-11 14:47:50:4750 [32minfo[39m: [32mGET - /iklan - Winston[39m
+2024-11-11 14:47:50:4750 [32minfo[39m: [32mGET / - 4ms[39m
+2024-11-11 14:48:09:489 [32minfo[39m: [32mGET - /iklan - Winston[39m
+2024-11-11 14:48:10:4810 [32minfo[39m: [32mGET / - 94ms[39m
+2024-11-11 14:48:18:4818 [32minfo[39m: [32mGET - /blogs - Winston[39m
+2024-11-11 14:48:18:4818 [32minfo[39m: [32mGET / - 4ms[39m
+2024-11-11 14:49:58:4958 [32minfo[39m: [32mGET - /blogs - Winston[39m
+2024-11-11 14:49:58:4958 [32minfo[39m: [32mGET - / - 9ms[39m
+2024-11-11 14:50:09:509 [32minfo[39m: [32mGET - /iklan - Winston[39m
+2024-11-11 14:50:09:509 [32minfo[39m: [32mGET - / - 96ms[39m
+2024-11-11 14:51:23:5123 [32minfo[39m: [32mGET - /iklan - Winston[39m
+2024-11-11 14:51:24:5124 [32minfo[39m: [32mGET - / - 96ms - Winston[39m
+2024-11-11 14:54:12:5412 [32minfo[39m: [32mGET - /iklan - Winston[39m
+2024-11-11 14:54:12:5412 [32minfo[39m: [32mGET - /iklan - 95ms - Winston[39m
+2024-11-11 14:58:58:5858 [32minfo[39m: [32mGET - /promos/d8001fa1-3f0c-4774-8323-cb6a9019f820 - Winston[39m
+2024-11-11 14:58:58:5858 [32minfo[39m: [32mGET - /promos/d8001fa1-3f0c-4774-8323-cb6a9019f820 - 3ms - Winston[39m
+2024-11-11 15:43:31:4331 [32minfo[39m: [32mPOST - /login - Winston[39m
+2024-11-11 15:43:31:4331 [32minfo[39m: [32mPOST - /login - 85ms - Winston[39m
+2024-11-11 15:43:41:4341 [32minfo[39m: [32mGET - /articles - Winston[39m
+2024-11-11 15:43:41:4341 [32minfo[39m: [32mGET - /articles - 102ms - Winston[39m
+2024-11-11 15:43:48:4348 [32minfo[39m: [32mGET - /articles - Winston[39m
+2024-11-11 15:43:48:4348 [32minfo[39m: [32mGET - /articles - 5ms - Winston[39m
+2024-11-11 15:44:03:443 [32minfo[39m: [32mGET - /articles - Winston[39m
+2024-11-11 15:44:03:443 [32minfo[39m: [32mGET - /articles - 5ms - Winston[39m
+2024-11-11 15:51:21:5121 [32minfo[39m: [32mGET - /articles - Winston[39m
+2024-11-11 15:51:21:5121 [32minfo[39m: [32mGET - /articles - 4ms - Winston[39m
+2024-11-11 15:51:22:5122 [32minfo[39m: [32mGET - /articles - Winston[39m
+2024-11-11 15:51:22:5122 [32minfo[39m: [32mGET - /articles - 3ms - Winston[39m

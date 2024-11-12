@@ -1,0 +1,67 @@
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+model Promo {
+  id          String      @id @default(uuid())
+  title       String
+  articles    Article[] @relation("PromoArticles")
+}
+
+model Article {
+  id          String     @id @default(uuid())
+  title       String
+  content     String
+  promoId     String
+  promo       Promo     @relation("PromoArticles", fields: [promoId], references: [id])
+  articleTags ArticleTag[]
+}
+
+model Tag {
+  id       String       @id @default(uuid())
+  name     String
+  articleTags ArticleTag[] @relation("TagsOnArticles")
+}
+
+model ArticleTag {
+  articleId String 
+  article Article @relation(fields: [articleId], references: [id]) 
+  tagId String 
+  tag Tag @relation("TagsOnArticles",fields: [tagId], references: [id]) 
+  
+  @@id([articleId, tagId])
+}
+
+model Car {
+    id       String  @id @default(uuid())
+    image    String
+    name     String
+    model    String
+    variant  String
+    price    Float
+    isNew    Boolean
+    iklanId  String? @unique
+    iklan    Iklan?  @relation(fields: [iklanId], references: [id])
+}
+
+model Iklan {
+    id       String  @id @default(uuid())
+    name     String
+    content  String
+    discount Float
+    image    String
+    car      Car[]
+}
+
+model Blog {
+    id      String @id @default(uuid())
+    title   String
+    desc    String
+    content String
+    image   String
+}
